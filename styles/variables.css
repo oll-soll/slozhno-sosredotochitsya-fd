@@ -5,4 +5,10 @@
   --accent_color: #ff0070;
   --text_color: #f1b2ce;
   --title-color: #db00ff;
+  --menu_color: #ff0070;
+  --active_button: #ff0070;
+  --focus_button: #ff0070;
+  --hover_button: rgba(255, 0, 112, 0.4);
+  --decorated_zone: #ff0070;
+  --content_title: #ff0070;
 }
