@@ -5,8 +5,97 @@
 */
 
 :root.theme-light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --bg_image: url(../images/cover-image-light.png);
+  --bg_color: #ffc2e6;
+  --accent_color: #ff8dcb;
+  --text_color: #353430;
+  --title-color: #ffc2e6;
+}
+
+.theme-light .rec {
+  display: none;
+}
+
+.theme-light .header__theme-menu-button {
+  color: var(--text_color);
+}
+
+.theme-light .header__theme-menu-button_active {
+  pointer-events: none;
+  border: 1px solid var(--text_color);
+}
+
+.theme-light .header__theme-menu-button:focus {
+  outline: none;
+}
+
+.theme-light .header__theme-menu-button:focus-visible {
+  border-bottom: 1px solid var(--text_color);
+}
+
+.theme-light .header__theme-menu-button:hover {
+  border: 1px solid rgba(50, 49, 45, 0.4);
+}
+
+.theme-light .decorated-zone::before {
+  border-top: 1px solid var(--text_color);
+  border-right: 1px solid var(--text_color);
+}
+
+.theme-light .decorated-zone::after {
+  border-bottom: 1px solid var(--text_color);
+  border-left: 1px solid var(--text_color);
+}
+
+.theme-light .content__title {
+  color: var(--text_color);
+}
+
+@media (prefers-color-scheme: light) {
+  :root.theme-auto {
+    --bg_image: url(../images/cover-image-light.png);
+    --bg_color: #ffc2e6;
+    --accent_color: #ff8dcb;
+    --text_color: #353430;
+    --title-color: #ffc2e6;
+  }
+
+  .theme-auto .rec {
+    display: none;
+  }
+
+  .theme-auto .header__theme-menu-button {
+    color: var(--text_color);
+  }
+
+  .theme-auto .header__theme-menu-button_active {
+    pointer-events: none;
+    border: 1px solid var(--text_color);
+  }
+
+  .theme-auto .header__theme-menu-button:focus {
+    outline: none;
+  }
+
+  .theme-auto .header__theme-menu-button:focus-visible {
+    border-bottom: 1px solid var(--text_color);
+  }
+
+  .theme-auto .header__theme-menu-button:hover {
+    border: 1px solid rgba(50, 49, 45, 0.4);
+  }
+
+  .theme-auto .decorated-zone::before {
+    border-top: 1px solid var(--text_color);
+    border-right: 1px solid var(--text_color);
+  }
+
+  .theme-auto .decorated-zone::after {
+    border-bottom: 1px solid var(--text_color);
+    border-left: 1px solid var(--text_color);
+  }
+
+  .theme-auto .content__title {
+    color: var(--text_color);
+  }
 }
