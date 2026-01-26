@@ -145,7 +145,7 @@
   line-height: 1.3;
 }
 
-.content__subtitle + .content__subtitle {
+.content__subtitle + .text__blocks {
   margin-block-start: 20px;
 }
 
