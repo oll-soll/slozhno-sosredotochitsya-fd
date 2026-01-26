@@ -72,7 +72,7 @@
 .header__theme-menu-list {
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 12px;
 }
 
 .header__theme-menu-item {
@@ -87,7 +87,6 @@
   color: var(--menu_color);
   text-transform: lowercase;
   background-color: transparent;
-  border: none;
 }
 
 .header__theme-menu-button:hover {
