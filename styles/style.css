@@ -67,13 +67,18 @@
 
 .header__theme-menu {
   justify-self: end;
-  line-height: 1;
 }
 
 .header__theme-menu-list {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 14px;
+}
+
+.header__theme-menu-item {
+  border: 1px solid transparent;
+  line-height: 1;
+  text-align: center;
 }
 
 .header__theme-menu-button {
@@ -320,5 +325,5 @@
 .header__theme-menu-button_active {
   pointer-events: none;
   border: 1px solid var(--active_button);
-  padding: 1.5px 13px;
+  padding: 3px 12px;
 }
