@@ -10,6 +10,7 @@
   --accent_color: #ff8dcb;
   --text_color: #353430;
   --title-color: #ffc2e6;
+  --title_decor: #353430;
   --menu_color: #353430;
   --active_button: #353430;
   --focus_button: #353430;
@@ -64,6 +65,7 @@
     --accent_color: #ff8dcb;
     --text_color: #353430;
     --title-color: #ffc2e6;
+    --title_decor: #353430;
     --menu_color: #353430;
     --active_button: #353430;
     --focus_button: #353430;
@@ -76,3 +78,4 @@
     display: none;
   }
 }
+

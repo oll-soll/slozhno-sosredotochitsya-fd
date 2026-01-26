@@ -108,7 +108,7 @@
 .title__decor {
   font-weight: 700;
   line-height: 1.3;
-  color: #000028;
+  color: var(--title_decor);
   background-color: var(--accent_color);
 }
 
